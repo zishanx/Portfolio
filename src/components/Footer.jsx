@@ -1,6 +1,6 @@
 export default function Footer(){
     return(
-        <div id="footer" className="section footer">
+        <div id="footer" className=" footer">
             <div className="copyright">© 2026 Zishan Khan</div>
             <div className="Socials">
                 <ul className="social-list">
