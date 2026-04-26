@@ -36,9 +36,9 @@ export default function Hero() {
                     transition={{ duration: 0.6, delay: 0.5 }}
 
                 >
-                    <button className="view-btn"><a href="#project">
-                        View my work</a></button>
-                    <button className="cta-btn"><a href="#footer">Get in touch</a></button>
+                    <a href="#project"><button className="view-btn">
+                        View my work</button></a>
+                    <a href="#footer"><button className="cta-btn">Get in touch</button></a>
                 </motion.div>
             </div>
         </>

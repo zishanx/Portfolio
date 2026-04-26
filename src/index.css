@@ -102,7 +102,7 @@ a{
     flex: column;
 }
 
-.cta button {
+.cta>a>button {
     padding: 10px;
     margin-right: 10px;
     background-color: #0000006a;
@@ -113,11 +113,11 @@ a{
 
 
 
-.cta>button:hover {
+.cta button:hover {
     background-color: rgba(128, 128, 128, 0.574)
 }
 
-.cta>.view-btn {
+.cta .view-btn {
     background-color: white;
     color: black;
 }
