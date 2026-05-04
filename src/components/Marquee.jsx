@@ -1,6 +1,6 @@
 export default function Marquee() {
 
-    const items = ['React', "Node.js", 'MongoDB', 'Express', 'Javascript', 'REST APIs', 'Fullstack']
+    const items = ['React', "Node.js", 'MongoDB', 'Express', 'Javascript', 'REST APIs', 'Fullstack','Tailwind']
 
 
     return (

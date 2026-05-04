@@ -18,6 +18,7 @@ export default function Skill() {
                 <div className="tag">Express.js</div>
                 <div className="tag">MongoDB</div>
                 <div className="tag">Mongoose</div>
+                <div className="tag">Tailwind</div>
                 <div className="tag">JavaScript(ES6+)</div>
                 <div className="tag">REST APIs</div>
                 <div className="tag">React Router</div>
