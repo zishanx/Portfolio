@@ -198,7 +198,7 @@ a {
     grid-column-start: 1;
     grid-column-end: 3;
     display: flex;
-    max-height: max-content;
+    height: fit-content;
 }
 
 .feat {
