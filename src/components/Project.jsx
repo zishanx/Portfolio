@@ -38,7 +38,7 @@ export default function Project() {
                     <img className="feat-img" src={clientdeskImg} alt="ClientDesk dashboard" />
                 </motion.div>
                 <motion.div
-                    className="pro-cards featured"
+                    className="pro-cards "
                     initial={{ opacity: 0, scale: .5 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
