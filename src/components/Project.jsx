@@ -1,4 +1,4 @@
-import image from "../assets/image.png"
+
 import clientdeskImg from "../assets/clientdesk.png"
 import shopflow from '../assets/shoplow.png'
 import wanderly from '../assets/wanderly.png'
@@ -105,7 +105,6 @@ export default function Project() {
                             <span className="tag">RENDER</span>
                         </div>
                     </div>
-                    <img className="feat-img" src={image} alt="Task Manager" />
                 </motion.div>
                 <motion.div
                     className="pro-cards"
