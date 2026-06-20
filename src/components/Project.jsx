@@ -84,7 +84,7 @@ export default function Project() {
                             <span className="tag">RENDER</span>
                         </div>
                     </div>
-                    <img className="feat-img" src={image} alt="Task Manager" />
+                    <img className="feat-img" src={clientdeskImg} alt="Task Manager" />
                 </motion.div>
                 <motion.div
                     className="pro-cards "
@@ -94,7 +94,7 @@ export default function Project() {
                     transition={{ duration: 0.8, delay: 0.5 }}
                 >
                     <div className="details">
-                        <h4 className="num">02</h4>
+                        <h4 className="num">04</h4>
                         <h2 className="pro-name">Task Manager</h2>
                         <p className="pro-detail">A fullstack task management app with real-time filtering, CRUD operations, and a sleek glassmorphism UI. Built with React, Express, and MongoDB.</p>
                         <div className="tags">
@@ -114,7 +114,7 @@ export default function Project() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.8, delay: 0.7 }}
                 >
-                    <h4 className="num">03</h4>
+                    <h4 className="num">05</h4>
                     <h2 className="pro-name">Movie Search App</h2>
                     <p className="pro-detail">Search any movie and get instant results powered by the OMDB API. Clean UI and dynamic rendering.</p>
                     <div className="tags">
@@ -130,7 +130,7 @@ export default function Project() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.8, delay: 0.7 }}
                 >
-                    <h4 className="num">04</h4>
+                    <h4 className="num">06</h4>
                     <h2 className="pro-name">GitHub User Search</h2>
                     <p className="pro-detail">Look up any GitHub user and see their repos, followers, and profile data in a clean interface.</p>
                     <div className="tags">
