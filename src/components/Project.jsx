@@ -25,7 +25,54 @@ export default function Project() {
                     <div className="details">
                         <h3 className="feat">FEATURED PROJECT</h3>
                         <h4 className="num">01</h4>
-                        <h2 className="pro-name"></h2>
+                        <h2 className="pro-name">Wanderly</h2>
+                        <p className="pro-detail">A full-stack travel booking platform where users can browse packages, make payments via Razorpay, and track bookings — all behind JWT authentication. Admins get a full dashboard to manage packages and orders. Built with React, Express, MongoDB, and GSAP animations.</p>
+                        <div className="tags">
+                            <span className="tag">REACT</span>
+                            <span className="tag">EXPRESS</span>
+                            <span className="tag">MONGODB</span>
+                            <span className="tag">RAZORPAY</span>
+                            <span className="tag">GSAP</span>
+                            <span className="tag">JWT</span>
+                            <span className="tag">VERCEL</span>
+                            <span className="tag">RENDER</span>
+                        </div>
+                    </div>
+                    <img className="feat-img" src={wanderly} alt="Wanderly" />
+                </motion.div>
+                <motion.div
+                    className="pro-cards "
+                    initial={{ opacity: 0, scale: .5 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.8, delay: 0.5 }}
+                >
+                    <div className="details">
+                        <h4 className="num">02</h4>
+                        <h2 className="pro-name">Shopflow</h2>
+                        <p className="pro-detail">A full-stack e-commerce app with product browsing, cart management, Razorpay payments, and an admin dashboard with live stats. Built with React, Express, and MongoDB.</p>
+                        <div className="tags">
+                            <span className="tag">REACT</span>
+                            <span className="tag">EXPRESS</span>
+                            <span className="tag">MONGODB</span>
+                            <span className="tag">RAZORPAY</span>
+                            <span className="tag">JWT</span>
+                            <span className="tag">VERCEL</span>
+                            <span className="tag">RAILWAY</span>
+                        </div>
+                    </div>
+                    <img className="feat-img" src={shopflow} alt="Task Manager" />
+                </motion.div>
+                <motion.div
+                    className="pro-cards "
+                    initial={{ opacity: 0, scale: .5 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.8, delay: 0.5 }}
+                >
+                    <div className="details">
+                        <h4 className="num">03</h4>
+                        <h2 className="pro-name">Client Desk</h2>
                         <p className="pro-detail">A fullstack client management dashboard where freelancers can store, edit, and delete client info — all behind JWT authentication. Built with React, Express, MongoDB, and Tailwind CSS.</p>
                         <div className="tags">
                             <span className="tag">REACT</span>
@@ -33,48 +80,6 @@ export default function Project() {
                             <span className="tag">MONGODB</span>
                             <span className="tag">JWT</span>
                             <span className="tag">TAILWIND</span>
-                            <span className="tag">NETLIFY</span>
-                            <span className="tag">RENDER</span>
-                        </div>
-                    </div>
-                    <img className="feat-img" src={clientdeskImg} alt="ClientDesk dashboard" />
-                </motion.div>
-                <motion.div
-                    className="pro-cards "
-                    initial={{ opacity: 0, scale: .5 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.8, delay: 0.5 }}
-                >
-                    <div className="details">
-                        <h4 className="num">02</h4>
-                        <h2 className="pro-name">Task Manager</h2>
-                        <p className="pro-detail">A fullstack task management app with real-time filtering, CRUD operations, and a sleek glassmorphism UI. Built with React, Express, and MongoDB.</p>
-                        <div className="tags">
-                            <span className="tag">REACT</span>
-                            <span className="tag">EXPRESS</span>
-                            <span className="tag">MONGODB</span>
-                            <span className="tag">NETLIFY</span>
-                            <span className="tag">RENDER</span>
-                        </div>
-                    </div>
-                    <img className="feat-img" src={image} alt="Task Manager" />
-                </motion.div>
-                <motion.div
-                    className="pro-cards "
-                    initial={{ opacity: 0, scale: .5 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.8, delay: 0.5 }}
-                >
-                    <div className="details">
-                        <h4 className="num">02</h4>
-                        <h2 className="pro-name">Task Manager</h2>
-                        <p className="pro-detail">A fullstack task management app with real-time filtering, CRUD operations, and a sleek glassmorphism UI. Built with React, Express, and MongoDB.</p>
-                        <div className="tags">
-                            <span className="tag">REACT</span>
-                            <span className="tag">EXPRESS</span>
-                            <span className="tag">MONGODB</span>
                             <span className="tag">NETLIFY</span>
                             <span className="tag">RENDER</span>
                         </div>
