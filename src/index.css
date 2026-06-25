@@ -201,8 +201,9 @@ a {
     padding: 2rem;
     border: 1px solid #1a1a1a;
     display: flex;
+    gap:10px;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     transition: background-color 0.3s ease;
 }
 
