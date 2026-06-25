@@ -272,8 +272,8 @@ a {
 .tag {
     background-color: transparent;
     border: 1px solid #7a777770;
-    padding: 6px 12px;
-    font-size: 0.75rem;
+    padding: 12px 12px;
+    font-size: .80rem;
     border-radius: 4px;
     color: rgba(255, 255, 255, 0.797);
     transition: all 0.2s ease;
